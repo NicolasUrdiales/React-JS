@@ -1,17 +1,21 @@
+import logo from './logo.svg'
 import './App.css';
-import './components/navbar'
+import  Navbar from './components/Navbar/Navbar'
+
+
 function App() {
   return (
-    <div className='app'>
       <Navbar>
+        <div>
+          <img src=''/>
+        </div>
         <nav>
-          <a>Inicio</a>
-          <a>Mis compras</a>
-          <a>Carrito de Compras</a>
+          <a className='a-nav'>Inicio</a>
+          <a className='a-nav'>Mis compras</a>
+          <a className='a-nav'>Carrito de Compras</a>
         </nav>
       </Navbar>
-    </div>
   );
-}
+};
 
 export default App;
